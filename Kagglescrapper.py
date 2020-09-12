@@ -84,7 +84,7 @@ class FSSAI:
         if self.dbObj is not None:
 
             self.dbObj.insertLog(self.refid, time.strftime('%Y-%m-%d %H-%M-%S'), level, message,
-                                 'FSSAICOMPLETE', self.env, screenshot)
+                                 'KAGGLE', self.env, screenshot)
         print(f"{level}: {message}, screenshot: {screenshot}")
 
     def generate_response(self,LicenseKey):
